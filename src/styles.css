@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html,
+body {
+  box-sizing: border-box;
+}
+.carousel-container {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+}
+.carousel {
+  transition: margin-left 0.5s;
+}
+
+.carousel-img {
+  width: 300px;
+}
+.arrow-prev {
+  position: absolute;
+  top: 50%;
+}
+.arrow-next {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
